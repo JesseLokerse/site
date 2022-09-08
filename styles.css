@@ -1,17 +1,27 @@
 body {
-    background-color: rgb(189, 166, 166);
+    background-color: rgb(42, 83, 77);
     font-family: arial, sans-serif;
 }
 
+.main{
+    background-color: rgb(32, 62, 58);
+    padding-bottom:10px;
+    
+}  
+
 h1 {
-    color: rgb(0, 0, 0);
+    color: rgb(108, 212, 197);
     text-align: center;
 }
 
 h2 {
     font-size: 20px;
+    color:rgb(108, 212, 197);
 }
 
+h3{
+    color:rgb(108, 212, 197)
+}
 h4 {
     color: rgb(64, 64, 248);
     margin-bottom: 5px;
@@ -19,43 +29,55 @@ h4 {
 }
 
 p {
-    color: black;
+    color: rgb(108, 212, 197);
     line-height:0.5em;
 }
 
 nav {
-    color: blue;
+    color: rgb(108, 212, 197);
     font-size: 15px;
     font-family: arial, sans-serif;
+    position:fixed;
 }
 
-fieldset {
-    background-color: white;
+.white{
+    color:rgb(108, 212, 197);
 }
-
-Fieldset .menu {
-    position:sticky;
-}
-
 
 a {
-    color: rgb(64, 64, 248);
+    color: rgb(168, 100, 100);
 }
 
 a:visited {
-    color: rgb(64, 64, 248);
+    color: rgb(168, 100, 100);
 }
 
 a:hover {
-    color: rgb(189, 166, 166);
+    color: rgb(109, 75, 75);
 }
 
 a:active {
-    color: black;
+    color: rgb(80, 63, 63);
 }
 
-.menu {
+
+.boven{
+    background-color:rgb(	80, 63, 63) ;
     text-align: center;
+    padding-top:20px;
+    padding-bottom:20px;
+    margin-left:325px;
+    margin-right:300px;
+    width:90%;
+    font-size:larger;
+}
+.zijkant{
+    background-color:rgb(	80, 63, 63);
+    width:200px;
+    margin-right:95%;
+    position:relative; left:-250px;
+    height:1000px;
+
 
 }
 .plaatje {
@@ -63,10 +85,29 @@ a:active {
     margin-bottom: -50;
 
 }
-.text{ 
-    float:left;
-    margin-right:800px;
+
+.vertikaal{
+    margin-left:40px;
+    font-size:large;
+    line-height:3em;
+    position:relative; left:-20px;
 }
-.hz-foto{ 
-    float:right;
+.externe-links{
+    color:rgb(	70, 105, 100);
+    font-size: larger;
+}
+
+}
+.hz-logo{ 
+    float:left;
+    
+}
+div{
+    width:1000px;
+    margin-left:250px;
+}
+.profile-text{
+    margin:8%;
+    margin-left:8%;
+    
 }
