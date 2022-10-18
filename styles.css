@@ -3,11 +3,17 @@ body {
     font-family: arial, sans-serif;
 }
 
-.main{
+.main {
     background-color: rgb(32, 62, 58);
-    padding-bottom:10px;
-    
-}  
+    padding-bottom: 10px;
+}
+
+.twee {
+    background-color: rgb(32, 62, 58);
+    padding-bottom: 10px;
+    margin-bottom: -10px;
+    margin-top: -65px;
+}
 
 h1 {
     color: rgb(108, 212, 197);
@@ -16,32 +22,33 @@ h1 {
 
 h2 {
     font-size: 20px;
-    color:rgb(108, 212, 197);
+    color: rgb(108, 212, 197);
 }
 
-h3{
-    color:rgb(108, 212, 197)
+li,h3 {
+    color: rgb(108, 212, 197)
 }
+
 h4 {
     color: rgb(64, 64, 248);
     margin-bottom: 5px;
     margin-top: 5px;
 }
 
-p {
+p,ul {
     color: rgb(108, 212, 197);
-    line-height:0.5em;
+    line-height: 0.5em;
 }
 
 nav {
     color: rgb(108, 212, 197);
     font-size: 15px;
     font-family: arial, sans-serif;
-    position:fixed;
+    position: fixed;
 }
 
-.white{
-    color:rgb(108, 212, 197);
+.white {
+    color: rgb(108, 212, 197);
 }
 
 a {
@@ -61,53 +68,102 @@ a:active {
 }
 
 
-.boven{
-    background-color:rgb(	80, 63, 63) ;
+.boven {
+    background-color: rgb(80, 63, 63);
     text-align: center;
-    padding-top:20px;
-    padding-bottom:20px;
-    margin-left:325px;
-    margin-right:300px;
-    width:90%;
-    font-size:larger;
-}
-.zijkant{
-    background-color:rgb(	80, 63, 63);
-    width:200px;
-    margin-right:95%;
-    position:relative; left:-250px;
-    height:1000px;
-
-
-}
-.plaatje {
-    margin-top:-10px;
-    margin-bottom: -50;
-
-}
-
-.vertikaal{
-    margin-left:40px;
-    font-size:large;
-    line-height:3em;
-    position:relative; left:-20px;
-}
-.externe-links{
-    color:rgb(	70, 105, 100);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 325px;
+    margin-right: 250px;
+    width: 90%;
     font-size: larger;
 }
 
+
+.nav {
+    background-color: rgb(80, 63, 63);
+    width: 200px;
+    left: -240px;
+    top: 105px;
+    height: 600px;
+    position: fixed
 }
-.hz-logo{ 
-    float:left;
-    
+
+.plaatje {
+    margin-top: -10px;
+    margin-bottom: -50;
 }
-div{
-    width:1000px;
-    margin-left:250px;
+
+.vertikaal {
+    margin-left: 40px;
+    font-size: large;
+    line-height: 1em;
+    position: relative;
+    left: -20px;
+
 }
-.profile-text{
-    margin:8%;
-    margin-left:8%;
-    
+
+.active{
+    color:rgb(108, 212, 197);
+}
+.externe-links {
+    color: rgb(70, 105, 100);
+    font-size: larger;
+}
+
+.hz-logo {
+    float: left;
+}
+
+div {
+    width: 1000px;
+    margin-left: 250px;
+}
+
+.profile-text {
+    margin: 8%;
+    margin-left: 8%;
+}
+
+table,
+th,
+td {
+    color: rgb(108, 212, 197);
+    border: 1px solid rgb(168, 100, 100);
+    line-height: 25px;
+    text-align:center;
+    position:center;
+
+}
+
+
+.div_foto{
+    left: 50px;
+    top: 450px;
+    position:absolute;
+}
+
+.container {
+    background-color: rgb(192, 192, 192);
+    width: 65%;
+    border-radius: 15px;
+    position:absolute; left:-29%; top:800px;
+}
+
+.skill {
+    background-color: rgb(116, 194, 92);
+    color: white;
+    padding: 1%;
+    text-align: right;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+.html {
+    width:0%;
+    position:absolute; left:20%;
+}
+
+.php {
+    width: 60%;
 }
